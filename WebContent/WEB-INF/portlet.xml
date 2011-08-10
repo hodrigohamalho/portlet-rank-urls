@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+version="2.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd
+http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+
+	<portlet>
+		<description>Exibe as páginas mais acessadas utilizando o google analitcs para obter as estatísticas.</description>
+		<portlet-name>UrlsMaisAcessadas</portlet-name>
+		<display-name>Urls mais acessadas</display-name>
+		<portlet-class>org.rodrigoramalho.UrlsMaisAcessadasServlet</portlet-class>
+		<expiration-cache>60</expiration-cache>
+		
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			<portlet-mode>edit</portlet-mode>
+		</supports>
+		
+		<portlet-info>
+			<title>Urls mais acessadas</title>
+		</portlet-info>
+	</portlet>
+</portlet-app>

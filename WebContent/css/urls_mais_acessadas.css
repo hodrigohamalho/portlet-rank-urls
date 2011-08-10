@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+.urls_mais_acessadas .odd {
+	background-color: #def; 
+}
+
+.urls_mais_acessadas .odd td {
+	border-bottom: 1px solid #cef; 
+}
+
+.erros{
+	color: red;
+}
